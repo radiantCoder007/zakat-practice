@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
 
 * {
     margin: 0;
@@ -192,4 +193,78 @@ container-right img {
 
 .image-row img {
     padding: 12px;
+}
+
+
+
+.charity-section {
+    display: flex;
+    padding: 10%;
+
+}
+
+.charity-card {
+    display: block;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    max-width: 364px;
+    margin-right: 20px;
+
+}
+
+.charity-card h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #121212;
+}
+
+.charity-card p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+    margin-bottom: 20px;
+
+}
+
+.charity-card-text {
+    padding: 5%;
+    margin-bottom: 20px;
+}
+
+.charity-card a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #EF233C;
+
+
+}
+
+
+
+.footer-area {
+    height: 180px;
+    background: #0B0D17;
+}
+
+.footer-text {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    color: #EF233C;
+    text-align: center;
+
 }
