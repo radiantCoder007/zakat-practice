@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+
+.banner-area {
+    width: 100%;
+    height: 100vh;
+
+    background: linear-gradient(to right, rgba(26, 26, 26, 1), rgba(26, 26, 26, 0)), url(images/banner-image.png);
+    /* background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(26, 26, 26, 0)), url(images/banner-image.png); */
+
+    /* from Figma: background: linear-gradient(90deg, #1A1A1A -0.7%, rgba(26, 26, 26, 0) 100%), url(images/banner-image.png); */
+
+    /* rgba(26, 26, 26, 1)
+rgba(26, 26, 26, 0) */
+    background-size: cover;
+}
+
+.banner-content-area {
+
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* margin-left: 5%; */
+    padding: 0 100px;
+}
+
+#banner-title {
+    max-width: 526px;
+
+
+}
+
+.banner-subtitle {
+    width: 480px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+
+.cta-button {
+    position: absolute;
+    text-decoration: none;
+    background: #EF233C;
+    border-radius: 5px;
+    padding: 10px 40px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 20px;
+
+}
+
+.half-width-container {
+    display: flex;
+    max-width: 100%;
+    padding: 10%;
+    /* flex-direction: row-reverse; */
+}
+
+.section-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #121212;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+.section-details {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    color: #707070;
+    padding-right: 100px;
+}
+
+container-right img {
+    width: 456px;
+    height: 477px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+
+}
+
+.reverse-image img {
+    margin-right: 100px;
+}
