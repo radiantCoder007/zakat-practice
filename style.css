@@ -117,3 +117,79 @@ container-right img {
 .reverse-image img {
     margin-right: 100px;
 }
+
+/* icon section */
+
+.content-area4 {
+    width: 90%;
+    padding: 0 200px;
+}
+
+.full-width-title {
+
+    text-align: center;
+}
+
+.banner-subtitle-fullwidth {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    text-align: center;
+    color: #707070;
+}
+
+.fifty-fifty-cards {
+    display: flex;
+    padding: 2% 15%;
+}
+
+.card {
+    display: flex;
+    background: #FEF4F5;
+    border-radius: 10px;
+    width: 461px;
+    /* height: 225px; */
+    margin: 10px;
+    padding: 40px;
+}
+
+.card-text h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #121212;
+}
+
+.card-text p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+    color: #707070;
+}
+
+.card img {
+    width: 56px;
+    height: 56px;
+    margin-right: 10px;
+}
+
+.image-row {
+    display: flex;
+    /* align-items: center; */
+    /* justify-items: center; */
+    margin-left: 150px;
+}
+
+.image-row img {
+    padding: 12px;
+}
